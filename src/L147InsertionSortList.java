@@ -6,16 +6,15 @@ public class L147InsertionSortList {
         }
 
         // Dummy node helps handle insertions at the head of the sorted list seamlessly
-        linkedlistsinjava.Node dummy = new linkedlistsinjava()Node(0);
+        linkedlistsinjava.Node dummy = new linkedlistsinjava.Node(0);
         linkedlistsinjava.Node current = head;
 
         while (current != null) {
             // Save the next node to process before altering current.next
-            linkedlistsinjavaNode nextNode = current.next;
-
-            // Start searching for the insertion point from the beginning of the sorted list
-            linkedlistsinjava.Node prev = dNodeummy;
-            while (prev.next != null && prev.next.val < current.val) {
+            linkedlistsinjava.Node nextNode = current.next;
+]            // Start searching for the insertion point from the beginning of the sorted list
+            linkedlistsinjava.Node prev = dummy;
+            while (prev.next != null && prev.next.data < current.data) {
                 prev = prev.next;
             }
 
