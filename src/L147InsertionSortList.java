@@ -12,7 +12,7 @@ public class L147InsertionSortList {
         while (current != null) {
             // Save the next node to process before altering current.next
             linkedlistsinjava.Node nextNode = current.next;
-]            // Start searching for the insertion point from the beginning of the sorted list
+            // Start searching for the insertion point from the beginning of the sorted list
             linkedlistsinjava.Node prev = dummy;
             while (prev.next != null && prev.next.data < current.data) {
                 prev = prev.next;
